@@ -4,7 +4,18 @@
 
 # Teslo API
 
-1. Levantar la DB
+1. Clonar proyecto
+2. Instalar los paquetes de Node
+```
+yarn install
+```
+3. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
+4. Actualizar las variables de entorno
+5. Levantar la DB
 ```
 docker-compose up -d
+```
+6. Levantar el proyecto
+```
+yarn start:dev
 ```
